@@ -1,0 +1,81 @@
+html{
+  background: #085078;  /* fallback for old browsers */
+  background: linear-gradient(to right, #518881, #000000);
+  background: -webkit-linear-gradient(to right, #518881, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #518881, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.appheading{
+  font-weight: 700;
+  letter-spacing: 3px;
+  color:#FFA500;
+  font-family: 'Acme', sans-serif;
+  font-size:60px;
+}
+.appheading span{
+  margin-right:10px;
+}
+.App {
+  text-align: center;
+  padding: 50px;
+}
+/* Form */
+.weather-form{
+  width:50%;
+  text-align: left;
+  margin:auto;
+  overflow: hidden;
+}
+.findout{
+  color: #f2f2f2;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.lbl{
+  color: #FFF;
+  width: 20%;
+  float: left;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.inputt{
+border:none;
+padding: 8px 12px;
+width:70%;
+margin-left: 5px;
+background-color: #e3f9f7;
+border-radius: 5px;
+}
+.btnfind{
+  background-color: #FFA500;
+  color: #023646;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 12px;
+  font-weight: 700;
+  width: 74%;
+  float: right;
+  margin-right: 5%;
+}
+.inputt:focus{
+  outline:0;
+}
+/* Weather Container */
+.weatherContainer{
+  width:50%;
+  text-align: left;
+  margin: 50px auto ;
+}
+.propName{
+color: #FFA500;
+font-weight: 700;
+margin-bottom: 8px;
+}
+.propName .propValue{
+color: #FFF;
+margin-left: 8px;
+}
+.error{
+  color: red;
+  text-align: center;
+}
